@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![PC](https://github.githubassets.com/images/ibm_ps2_30_s.jpg)
+![PC](./assets/images/ibm_ps2_30_small.jpg)
 
 
 [About](./about)
@@ -15,4 +15,11 @@ For small projects.
 
 # Posts
 
-* [2021/01/01 - First Day](./2022/01/01/First-Day.html)
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
