@@ -1,17 +1,11 @@
 ---
 layout: default
 ---
-
 ![PC](./assets/images/ibm_ps2_30_small.jpg)
-
 
 [About](./about)
 
-# Unshar
-
-For small projects.
-
-
+For various projects.
 
 # Posts
 
@@ -22,4 +16,3 @@ For small projects.
     </li>
   {% endfor %}
 </ul>
-
